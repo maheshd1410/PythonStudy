@@ -1,0 +1,40 @@
+# This code creates a two dimensional array using NumPy
+
+import numpy as np
+myFirstNumPyArray = np.array([[1,2],[3,4]])
+print(myFirstNumPyArray)
+
+
+# This code creates a one dimensional array using NumPy
+
+import numpy as np
+oneDimArray = np.array([1,2,3,4,5])
+print(oneDimArray)
+
+# This code created a one dimensional array with dtype
+
+import numpy as np
+dTypeComplexArray = np.array([1,2,3], dtype=complex)
+dTypeBoolArray = np.array([1,2,3], dtype=bool)
+dTypeStrArray = np.array([1,2,3], dtype=str)
+print(dTypeComplexArray)
+print(dTypeBoolArray)
+print(dTypeStrArray)
+
+
+# This code created a Pandas series
+
+import pandas as pd
+myFirtstIntPandasSeries = pd.Series([1,2,3,4,5])
+myFirstStrPandasSeries = pd.Series(['a','b','c'])
+print (myFirtstIntPandasSeries)
+print (myFirstStrPandasSeries)
+
+# This code creates a Pandas DataFrame
+
+import pandas as pd
+employee =  {'Name':['A','B'],'ID':[1,2]}
+myFirstPandasDFWithDefaultIndex = pd.DataFrame(employee)
+myFirstPandasDFWithNonDefaultIndex = pd.DataFrame(employee, index=['Rank 1','Rank 2'])
+print (myFirstPandasDFWithDefaultIndex)
+print (myFirstPandasDFWithNonDefaultIndex)
