@@ -1,3 +1,124 @@
+# Printing in Python
+print('Hello, Python!')
+
+# Check Python version
+import sys
+print(sys.version)
+
+# Writing commmens in Python
+# Below code will print 'Hello, Python!' as an output
+print('Hello, Python!')
+
+# Python will display an error message as syntax is inaccurate
+frint('Hello, Python!')
+
+#---------------------------------------------------------------------------
+#NameError                                 Traceback (most recent call last)
+#<ipython-input-4-313a1769a8a5> in <module>
+#      1 # Print string as error message
+#      2 
+#----> 3 frint("Hello, Python!")
+
+#NameError: name 'frint' is not defined
+
+# Data types
+# Number, Integer
+12
+
+#Float
+2.34
+
+#String
+"Hello, world!"
+
+#Get data type of a variable
+type(1)
+Output -> int
+
+type(2.14)
+Output -> float
+
+type("Hello, world!")
+Output -> str
+
+#Print system information of data types
+# For integer
+sys.int_info
+Output -> sys.int_info(bits_per_digit=30, sizeof_digit=4)
+
+sys.float_info
+Output -> sys.float_info(max=1.7976931348623157e+308, max_exp=1024, max_10_exp=308, min=2.2250738585072014e-308, min_exp=-1021, min_10_exp=-307, dig=15, mant_dig=53, epsilon=2.220446049250313e-16, radix=2, rounds=1)
+
+#Typecasting
+float(2)
+Output -> 2.0
+
+type(float(2))
+Output -> float
+
+int(1.1)
+Output -> 1
+
+str(1)
+Output -> '1'
+
+#Boolean Data Types
+True
+False
+
+#Getting data type
+type(True)
+type(False)
+
+Output -> bool
+
+#Typecasting boolean values
+int(True)
+Output -> 1
+
+int(False)
+Output -> 0
+
+bool(1)
+Output -> True
+
+bool(0)
+Output -> False
+
+float(True)
+Output -> 1.0
+
+float(False)
+Output -> 0.0
+
+#Expressions and Variables
+43 + 60 + 16 + 41
+Output -> 160
+
+60-50
+Output -> 10
+
+5*5
+Output -> 25
+
+25/5
+Output -> 5.0
+
+25//5
+Output -> 5
+
+#Complex maths
+30 + 2 * 60
+Output -> 150
+
+(30 + 2) * 60
+Output -> 1920
+
+x = 43 + 60 + 16 + 41
+x
+Output -> 160
+
+
 # This code creates a two dimensional array using NumPy
 
 import numpy as np
